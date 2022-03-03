@@ -73,11 +73,5 @@ async fn main() {
 
     let routes = suggestions_endpoint;
 
-    warp::serve(routes).run(([127, 0, 0, 1], 3030)).await;
+    warp::serve(routes).run(([0, 0, 0, 0], 3030)).await;
 }
-// curl --location --request POST 'localhost:3030/autocomplete/v1' \
-// --header 'Content-Type: application/json' \
-// --header 'Content-Type: text/plain' \
-// --data-raw '{
-//     "term": "su"
-// }'
