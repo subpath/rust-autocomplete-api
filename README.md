@@ -1,5 +1,6 @@
 # rust-autocomplete-api
 fastest* autocomplete API written in rust  🦀
+
 <sub><sub>*probably</sub></sub>
 
 ## Run it locally
