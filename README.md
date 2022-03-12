@@ -7,7 +7,7 @@ fastest* autocomplete API written in rust  🦀
 2. `./target/release/autocomplete-api-poc`
 
 ## Run it in Docker
-1. `docker build -f Dokerfile . -t rust-autocomplete:latest `
+1. `docker build -f Dockerfile . -t rust-autocomplete:latest `
 2. `docker run -d -p 0.0.0.0:3030:3030  --name rust-autocomplete-api rust-autocomplete`
 
 ## Curl example: 
